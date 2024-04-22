@@ -1,0 +1,20 @@
+body {
+  background: #222;
+  color: white;
+
+}
+
+.grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tile {
+  display: flex;
+  border: #fff;
+  border-style: solid;
+  border-width: 1px;
+  min-height: 10vh;
+  justify-content: center;
+}
