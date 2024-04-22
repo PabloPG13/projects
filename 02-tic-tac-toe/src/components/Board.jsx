@@ -51,7 +51,7 @@ export function Board(){
                 })
                 }
             </section>
-            <Turn turn={turn}/>
+            <Turn turn={turn} />
             <WinnerModal winner={winner} resetGame={resetGame}/>  
         </>
     )
